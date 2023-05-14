@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Baby's Form Fillup</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+</head>
+
+<body>
+    <div class="outer_box">
+    <div class="div_box">
+        <h1 id="headiing1">Enter Baby's Detail </h1>
+        <div class="inner_box">
+            <form action="action.php">
+                <label>Baby's First Name &nbsp &nbsp : </label>
+
+                <input type="text" id="baby_first_name" placeholder="Enter The first name">
+                <br><br>
+
+                <label>Baby's Last Name &nbsp &nbsp &nbsp:</label>
+
+                <input type="text" id="baby_last_name" placeholder="Enter The second name">
+                <br><br>
+                <label>baby's Mother's name :</label>
+
+                <input type="text" id="baby_mother_name" placeholder="Enter name">
+                <br><br>
+                <label>Baby's father Name &nbsp &nbsp:</label>
+
+                <input type="text" id="baby_father_name" placeholder="Enter name">
+                <br><br>
+
+
+
+                <label for="phone">Contact Number &nbsp &nbsp &nbsp &nbsp: </label>
+                <input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}">
+                <br><br>
+
+                <label>Birth-date-time &nbsp &nbsp &nbsp &nbsp:</label>
+
+                <input type="datetime-local" id="date_and_time">
+
+                <br><br>
+                <label>Baby's Sex &nbsp &nbsp&nbsp &nbsp &nbsp &nbsp&nbsp &nbsp&nbsp &nbsp:</label>
+
+                <select name="baby's Sex" id="baby_sex">
+                    <option value="baby_sex">Female</option>
+                    <option value="baby_sex">Male</option>
+                    <option value="baby_sex">Rather not say</option>
+
+                </select>
+                <br><br>
+                <label>Select Doctor :</label><br>
+                <input type="radio" id="doctor_name_1" name="doctor_name">
+                <label for="doctor_name_1">Dr. Albert Einstein</label><br>
+
+                <input type="radio" id="doctor_name_2" name="doctor_name">
+                <label for="doctor_name_2">Dr. Issac Newton</label><br>
+
+                <input type="radio" id="doctor_name_3" name="doctor_name">
+                <label for="doctor_name_3">Dr. Stephan hawking</label><br>
+                <br>
+                <label> Enter Baby's Address : </label><br>
+                <textarea name="explain" id="baby_address" cols="30" rows="5 "
+                    placeholder="Enter the address of baby"></textarea>
+                <br><br>
+
+                <input id="button" type="button" value="Submit">
+            </form>
+        </div>
+        <!-- end of inner box -->
+    </div>
+    <!-- end of division box -->
+</div>
+<!-- end of outer box -->
+
+</body>
+
+</html>

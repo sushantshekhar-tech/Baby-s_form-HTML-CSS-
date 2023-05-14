@@ -1,0 +1,66 @@
+body{
+    background-image: url(https://wallpaperaccess.com/full/1134886.jpg);
+}
+
+
+
+div.div_box{
+    width: 400px;
+    margin: 100px auto 0px auto;
+    color: rgb(46, 30, 139);
+    padding-top: 5px;
+}
+
+
+h1{
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+text-align: center;
+
+background-color:rgb(240, 112, 195,0.5);
+border: 5px solid rgb(83, 11, 62);
+border-radius: 25px;
+}
+
+div.inner_box{
+background-color:rgb(240, 112, 195,0.5);
+border: 5px solid rgb(83, 11, 62);
+padding-left: 20px;
+padding-top: 20px;
+padding-bottom: 30px;
+border-radius: 25px;
+
+}
+
+
+label{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    font-size: 18px;
+    color: rgb(46, 30, 139);
+   
+}
+#button{
+    color: rgb(221, 219, 233);
+    width:300px;
+    margin: 0px 20px;
+    border-radius: 25px;
+    border: 1px solid black;
+ font-size: larger;
+ padding: 3px;
+   background-color: rgb(245, 149, 70);
+
+}
+
+div.outer_box{
+  background-image: url(https://thumbs.dreamstime.com/b/happy-mother-kissing-baby-43404416.jpg);
+    background-color:rgb(245, 241, 241,0.1);
+  
+    height: 885px;
+
+    width: 657px;
+    padding: inherit;
+    border-radius: 50px;
+    margin-top: 235px;
+    margin-left: 492px;
+    border: 5px solid rgb(29, 78, 177);
+}
