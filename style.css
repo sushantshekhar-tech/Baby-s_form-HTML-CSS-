@@ -63,4 +63,7 @@ div.outer_box{
     margin-top: 235px;
     margin-left: 492px;
     border: 5px solid rgb(29, 78, 177);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: center;
 }
